@@ -20,3 +20,8 @@ float jumlah(float a, float b, float c){
 int luasPersegiP(int a, int b){
     return a * b;
 }
+
+void output(){
+    cout << "hasilnya =" << luasPersegiP(p, l) << endl;
+    cout << "terima kasih" << endl;
+}
